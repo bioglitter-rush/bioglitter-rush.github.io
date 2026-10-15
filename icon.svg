@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff5cac"/>
+      <stop offset="1" stop-color="#7a3ee0"/>
+    </linearGradient>
+    <linearGradient id="gemL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fe0ff"/>
+      <stop offset="1" stop-color="#248cff"/>
+    </linearGradient>
+  </defs>
+  <!-- badge -->
+  <rect x="20" y="20" width="472" height="472" rx="112" fill="url(#bg)" stroke="#2e1848" stroke-width="24"/>
+  <rect x="58" y="50" width="396" height="120" rx="60" fill="#ffffff" opacity="0.16"/>
+  <!-- confetti -->
+  <rect x="78" y="300" width="34" height="16" rx="5" fill="#ffce2e" transform="rotate(-30 95 308)"/>
+  <rect x="400" y="300" width="34" height="16" rx="5" fill="#18cec4" transform="rotate(35 417 308)"/>
+  <rect x="96" y="104" width="28" height="14" rx="5" fill="#18cec4" transform="rotate(20 110 111)"/>
+  <rect x="372" y="420" width="28" height="14" rx="5" fill="#fffaf0" transform="rotate(-25 386 427)"/>
+  <!-- bioglitter crystal -->
+  <g stroke="#2e1848" stroke-width="18" stroke-linejoin="round">
+    <polygon points="164,146 348,146 412,218 256,430 100,218" fill="#248cff"/>
+  </g>
+  <polygon points="164,146 348,146 412,218 100,218" fill="url(#gemL)"/>
+  <polygon points="100,218 256,430 200,218" fill="#55b6ff"/>
+  <polygon points="312,218 256,430 412,218" fill="#1660c8"/>
+  <polygon points="200,218 312,218 256,430" fill="#2f9bff"/>
+  <polygon points="164,146 210,218 100,218" fill="#bfeeff"/>
+  <polygon points="348,146 302,218 412,218" fill="#5fb8ff"/>
+  <g stroke="#2e1848" stroke-width="7" stroke-linejoin="round" fill="none" opacity="0.55">
+    <polyline points="100,218 412,218"/>
+    <polyline points="164,146 210,218 256,146 302,218 348,146"/>
+    <polyline points="210,218 256,430 302,218"/>
+  </g>
+  <g stroke="#2e1848" stroke-width="18" stroke-linejoin="round" fill="none">
+    <polygon points="164,146 348,146 412,218 256,430 100,218"/>
+  </g>
+  <!-- glint -->
+  <path d="M196 158 L206 186 L234 196 L206 206 L196 234 L186 206 L158 196 L186 186 Z" fill="#ffffff"/>
+  <!-- gold sparkles -->
+  <path d="M408 76 L420 108 L452 120 L420 132 L408 164 L396 132 L364 120 L396 108 Z" fill="#ffce2e" stroke="#2e1848" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M110 372 L119 396 L143 405 L119 414 L110 438 L101 414 L77 405 L101 396 Z" fill="#ffce2e" stroke="#2e1848" stroke-width="8" stroke-linejoin="round"/>
+</svg>
