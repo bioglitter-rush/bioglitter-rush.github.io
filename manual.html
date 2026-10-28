@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manual – Bioglitter Rush</title>
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<style>
+  :root { --ink:#2e1848; --paper:#fffaf0; --pink:#ff5cac; --purple:#7a3ee0; --blue:#248cff; --teal:#18cec4; --gold:#ffce2e; --red:#f43854; --green:#34cc6e; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: "Trebuchet MS", system-ui, -apple-system, sans-serif; color:var(--ink);
+         background: linear-gradient(160deg, #ffd6ec, #e6dcff 45%, #d6f4ff); line-height:1.45; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 16px 16px 48px; }
+  header { text-align:center; padding: 10px 0 4px; }
+  header img { width: 84px; height: 84px; }
+  h1 { margin: 6px 0 0; font-size: 30px; letter-spacing: .5px; }
+  .sub { margin: 4px 0 0; font-size: 16px; opacity:.8; }
+  .card { background: var(--paper); border: 4px solid var(--ink); border-radius: 22px; padding: 14px 16px 16px;
+          margin: 16px 0; box-shadow: 0 6px 0 rgba(46,24,72,.25); }
+  .card h2 { margin: 0 0 8px; font-size: 21px; display:flex; align-items:center; gap:10px; }
+  .badge { width: 36px; height: 36px; border-radius: 50%; border: 3px solid var(--ink); display:inline-flex;
+           align-items:center; justify-content:center; font-size: 19px; flex: 0 0 auto; }
+  p { margin: 6px 0; font-size: 17px; }
+  ul { margin: 6px 0; padding-left: 20px; font-size: 17px; }
+  li { margin: 4px 0; }
+  .grid { display:grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 8px; }
+  .tile { border: 3px solid var(--ink); border-radius: 16px; padding: 10px; text-align:center; font-size: 15px; background:#fff; }
+  .tile b { display:block; font-size: 16px; margin-top: 4px; }
+  .big { font-size: 28px; }
+  .good { background: #e8fff1; } .bad { background: #ffe9ee; }
+  table { width:100%; border-collapse: collapse; font-size: 16px; margin-top: 6px; }
+  td, th { border: 2px solid var(--ink); padding: 7px 8px; text-align:left; vertical-align: top; }
+  th { background: #efe6ff; }
+  .tip { background: #fff6cf; border-radius: 14px; padding: 8px 12px; margin-top: 8px; font-size: 16px; }
+  footer { text-align:center; font-size: 14px; opacity: .75; margin-top: 18px; }
+  @media (max-width: 420px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 26px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="icon-192.png" alt="">
+    <h1>Bioglitter Rush</h1>
+    <p class="sub">Manual rápido – é só ler uma vez e sair jogando!</p>
+  </header>
+
+  <div class="card">
+    <h2><span class="badge" style="background:var(--pink)">🎉</span>Do que se trata?</h2>
+    <p>Você é um folião num <b>bloco de Carnaval</b>. O glitter comum é feito de <b>plástico</b> e, depois da festa, vai parar no mar.
+       Agora o mar está devolvendo esse glitter numa <b>onda</b>! Sua missão: <b>correr, recolher o glitter de plástico</b> e não deixar a onda te pegar.</p>
+    <p>No caminho você aprende sobre o <b>bioglitter</b>: um glitter feito de <b>sal, mica e corante</b>, que não polui.</p>
+  </div>
+
+  <div class="card">
+    <h2><span class="badge" style="background:var(--blue)">🎮</span>Como mexer</h2>
+    <table>
+      <tr><th>Para…</th><th>No celular / tablet</th><th>No computador</th></tr>
+      <tr><td>Mudar de faixa</td><td>Deslize o dedo para o lado</td><td>Setas ← → ou A / D</td></tr>
+      <tr><td>Pular</td><td>Deslize para cima</td><td>Seta ↑, W ou Espaço</td></tr>
+      <tr><td>Rolar no chão</td><td>Deslize para baixo</td><td>Seta ↓ ou S</td></tr>
+      <tr><td>Pausar</td><td>Botão ⏸ no canto</td><td>Esc ou P</td></tr>
+    </table>
+    <p class="tip">💡 A rua tem <b>3 faixas</b>. Pule o que é baixo, role por baixo do que flutua e mude de faixa para fugir do que é grande.</p>
+  </div>
+
+  <div class="card">
+    <h2><span class="badge" style="background:var(--green)">✅</span>O que pegar</h2>
+    <div class="grid">
+      <div class="tile good"><span class="big">✨</span><b>Glitter de plástico</b>Flocos coloridos na rua. Vale pontos e vira dinheiro do jogo.</div>
+      <div class="tile good"><span class="big">🔤</span><b>Letras</b>Pegue na ordem para formar a palavra do alto da tela (+25 glitter).</div>
+      <div class="tile good"><span class="big">🎒</span><b>Jetpack de bioglitter</b>Você voa por uns segundos por cima de tudo.</div>
+      <div class="tile good"><span class="big">💎</span><b>Cristal de mica</b>Puxa o glitter de perto e vale em dobro.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="badge" style="background:var(--red)">⚠️</span>O que evitar</h2>
+    <div class="grid">
+      <div class="tile bad"><span class="big">🗑️</span><b>Lixo e barreiras</b>Pule ou mude de faixa.</div>
+      <div class="tile bad"><span class="big">☁️</span><b>Nuvem de microplástico</b>Flutua: role por baixo.</div>
+      <div class="tile bad"><span class="big">🛢️</span><b>Barril de POPs, carros e trio elétrico</b>Mude de faixa (no trio dá para subir pela escada).</div>
+      <div class="tile bad"><span class="big">🐟</span><b>Peixes contaminados</b>Saltam da onda: fuja das faixas marcadas com “!”.</div>
+    </div>
+    <p class="tip">🌊 Bater de leve faz você <b>tropeçar</b> (a tela fica vermelha). <b>Dois tropeços seguidos</b> e a onda te pega. Bater de frente em algo grande acaba a corrida na hora.</p>
+  </div>
+
+  <div class="card">
+    <h2><span class="badge" style="background:var(--purple)">🧪</span>Perguntas do laboratório</h2>
+    <p>De vez em quando aparece uma <b>pergunta</b> no alto da tela com <b>3 respostas (A, B e C)</b>, uma em cada faixa.</p>
+    <p>É só <b>correr pela faixa da resposta certa</b> e passar pelo portal. Acertou? Ganha glitter. Errou? O jogo mostra qual era a certa.</p>
+    <p class="tip">💡 As perguntas são de biologia, química e do artigo. Não tem obstáculo enquanto você escolhe – pode pensar com calma.</p>
+  </div>
+
+  <div class="card">
+    <h2><span class="badge" style="background:var(--teal)">🐢</span>A fase da tartaruga</h2>
+    <p>Às vezes o folião <b>mergulha no mar e vira uma tartaruga</b>! O jogo pausa e explica tudo antes de começar.</p>
+    <ul>
+      <li>Suba e desça (deslize ou setas ↑ ↓) entre <b>3 alturas</b>.</li>
+      <li>Pegue <b>só o bioglitter azul</b> 💙.</li>
+      <li>Desvie do <b>glitter de plástico</b> rosa: ele faz mal à tartaruga e tira uma das <b>3 vidas</b>.</li>
+      <li>Quando a barra chegar ao sol ☀️, ela volta e a corrida continua.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2><span class="badge" style="background:var(--gold)">⭐</span>Perdi! E agora?</h2>
+    <ul>
+      <li>Aparece <b>“Quer continuar?”</b>: dá para <b>reviver</b> pagando com o glitter que você juntou (100, depois 200, depois 400).</li>
+      <li>Depois aparece o resumo: pontuação, um fato do artigo e um campo para pôr seu <b>apelido no ranking</b>.</li>
+      <li>Na <b>Loja</b>, o glitter compra <b>fantasias</b> (pirata, abelha, astronauta…) e melhorias.</li>
+    </ul>
+    <p class="tip">💡 Pontos = metros corridos + 10 por glitter. Quanto mais longe, mais rápido e difícil fica!</p>
+  </div>
+
+  <div class="card">
+    <h2><span class="badge" style="background:#ffd1e6">📖</span>Para aprender mais</h2>
+    <ul>
+      <li><b>História</b>: vídeo narrado que conta o problema do glitter.</li>
+      <li><b>Sobre o artigo</b>: resumo do trabalho que inspirou o jogo.</li>
+      <li><b>Diário</b>: fichas do artigo que você desbloqueia jogando.</li>
+    </ul>
+  </div>
+
+  <footer>Bioglitter Rush – baseado no artigo “Desenvolvimento de um bioglitter biodegradável como alternativa sustentável ao glitter convencional” (Colégio Bandeirantes).</footer>
+</div>
+</body>
+</html>
